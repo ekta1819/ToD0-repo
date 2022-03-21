@@ -9,7 +9,7 @@ function App() {
   const[list,setList] = useState([]);
 
   const [isEditing, setIsEditing] = useState(false);
-  const [currentTodo, setCurrentTodo] = useState({});
+  const [currentTodo, setCurrentTodo] = useState({})
 
   const inputEventhandler=(e)=>{
     setInput(e.target.value);
