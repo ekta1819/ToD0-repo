@@ -1,0 +1,80 @@
+.App{
+  background-color:rgb(52, 76, 94);
+  min-height: 500px;
+  width: 400px;
+  margin:80px auto;
+  border-radius: 5px;
+}
+.App-header h1{
+  background-color:rgb(131, 197, 188);
+  min-height: 50px;
+  width: 400px;
+  margin:80px auto;
+  display:flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.App-body input{
+  background:rgb(170, 164, 164);
+  width: 200px;
+  height: 50px;
+  padding:0 10px;
+  margin:20px;
+  border:0;
+  border-radius: 10px;
+  font-size: 18px;
+  color:white;
+  outline: none;
+  position: relative;
+  bottom:66px;
+  left: 20px;
+}
+
+.App-body button{
+  height: 50px;
+  width: 80px;
+  border:0;
+  border-radius: 5px;
+  background-color:rgb(180, 167, 167);
+  cursor:pointer;
+  font-weight: bolder;
+  position: relative;
+  bottom:66px;
+  left:10px;
+}
+
+.result p{
+  background-color:rgb(131, 197, 188);
+  height: 30px;
+  width: 300px;
+  padding:0 10px;
+  margin:17px;
+  justify-content: center;
+  display:flex;
+  font-weight: bolder;
+  border-radius: 3px;
+
+
+}
+
+.result{
+  position: relative;
+  left: 8%;
+  bottom: 70px;
+}
+
+.icons{
+  display:flex;
+  position:relative;
+  left: 270px; 
+  bottom:40px;
+}
+
+.iconedit{
+  display:flex;
+  position:relative;
+  left: 290px; 
+  bottom:63px;
+
+}
